@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/portfolio.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js" async></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js" defer></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" async></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" async></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" async></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
 </head>
 
 <!-- Navigation Bar -->
@@ -50,13 +50,17 @@
     </header>
 
     <!-- first image right under the name and the logo -->
-    <img src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?auto=format&fit=crop&w=1050&q=80" class="img-responsive" alt="photo" align="center">
+    <div class="row">
+        <div class="col-lg-12 col-sm-12">
+            <img src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?auto=format&fit=crop&w=1050&q=80" class="img-responsive" alt="photo" align="center">
+        </div>
+    </div>
 
     <!-- About -->
     <section id="about">
-        <h2>About</h2>
         <div class="row">
             <div class="col-lg-12 col-sm-12">
+                <h2>About</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -69,7 +73,11 @@
 
     <!-- Featured works -->
     <section id="featured">
-        <h2>Featured works </h2>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <h2>Featured works </h2>
+            </div>
+        </div>
         <div class="row flex">
             <div class="col-lg-4 col-sm-6">
                 <div class="thumbnail">

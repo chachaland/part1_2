@@ -22,7 +22,7 @@ header {
 
 hr {
     border-top: 3px solid #7d97ad;
-    border-bottom: 3px solid rgba(0,0,0,0.3)
+    border-bottom: 3px solid rgba(0,0,0,0.3);
     max-width: 90%;
 }
 
